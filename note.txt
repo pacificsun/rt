@@ -1,0 +1,18 @@
+src/
+├── app/
+│   └── store.js              # Redux store setup
+├── components/
+│   └── ProtectedRoute.jsx    # Protects private routes
+├── features/
+│   └── auth/
+│       ├── authSlice.js
+│       └── authService.js    # Login/logout simulation or API
+├── pages/
+│   ├── Home.jsx              # Home page (protected)
+│   └── Login.jsx             # Login page (public)
+├── routes/
+│   └── AppRoutes.jsx         # Route setup
+├── theme/                    # MUI theme overrides (optional)
+│   └── theme.js
+├── App.jsx                   # Main app shell
+└── main.jsx                  # App entry point
