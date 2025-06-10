@@ -1,0 +1,32 @@
+# dependencies
+/node_modules/
+.pnpm-debug.log
+
+# build output
+/dist/
+
+# environment variables
+.env
+.env.local
+.env.*.local
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sw?
+
+# macOS system files
+.DS_Store
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# optional: coverage if using testing tools
+coverage/
+
+# optional: lint and formatting cache
+.eslintcache
+.prettiercache
